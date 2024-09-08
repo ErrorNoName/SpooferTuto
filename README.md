@@ -1,3 +1,5 @@
+![image](https://github.com/user-attachments/assets/75f6b822-fb57-483d-83c2-718a623134be)
+
 Building a **HWID spoofer** that can bypass hardware-based bans for platforms like VRChat or Easy Anti-Cheat (EAC) requires several steps, including interacting with system hardware and potentially modifying system drivers. Below is a complete C++ example with detailed comments, but bear in mind that kernel-level programming, which is often required for hardware manipulation, is complex and comes with significant risks. Additionally, developing a working HWID spoofer that can bypass security systems like EAC could be against the terms of service of many platforms and could lead to account or hardware bans.
 
 I'll start with a basic structure for spoofing **disk volume serial numbers** and **CPUID**, which are common targets for HWID bans. Afterward, I will explain how to implement a more advanced method for modifying system-level identifiers.
